@@ -2,10 +2,9 @@ package basicsofjava;
 
 public class Typecasting {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
 			//implicit casting
-			byte b=126;
+			byte b=127;
 	     	int i=b;
 			System.out.println(i);
 			
@@ -14,7 +13,7 @@ public class Typecasting {
 			double d1=f1;
 			System.out.println(d1);
 			
-        	//Explicit casting
+	    	//Explicit casting
 		
 		    double d2=10.52d;
 			long l=(long)d2;
@@ -28,5 +27,6 @@ public class Typecasting {
 		}
 
 
-	}
+	
 
+}
