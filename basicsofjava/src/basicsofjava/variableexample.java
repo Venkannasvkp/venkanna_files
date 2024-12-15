@@ -4,9 +4,9 @@ public class variableexample {
 	
 	int id=20;
 	//instance variable
-	void print()
+	protected void print()
 	{
-		String msg="hi friend";
+	    String msg="hi frend";
 		System.out.println(msg);
 		//local variable
 	}
